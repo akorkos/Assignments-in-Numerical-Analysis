@@ -45,7 +45,7 @@
 </table>
 
 ### Information 
-This repository includes the two assignments for the course [Arithmetical analysis](https://elearning.auth.gr/enrol/index.php?id=7942) (Winter 2021-22) at the computer science department @[AUTh](https://www.auth.gr/en/).
+This repository includes the two assignments for the course [Numerical analysis](https://elearning.auth.gr/enrol/index.php?id=7942) (Winter 2021-22) at the computer science department @[AUTh](https://www.auth.gr/en/).
 
 ### Content 
 
