@@ -1,4 +1,4 @@
-# Two Projects in Numerical Analysis
+# Two assignments in Numerical Analysis
 
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/akorkos/Projects-in-Numerical-Analysis"> <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/akorkos/Projects-in-Numerical-Analysis">
 
