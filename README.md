@@ -5,6 +5,12 @@
 ### Πληροφορίες 
 Οι δυο εργασίες στο μάθημα [Αριθμητικής ανάλυσης](https://elearning.auth.gr/enrol/index.php?id=7942) του τμήματος πληροφορικής του Α.Π.Θ για το ακαδημαϊκό έτος 2021/22. <br />
 
+* [Εκφώνηση της *1ης εργασίας*](https://github.com/akorkos/Assignments-in-Numerical-Analysis/raw/master/Assignment-1/Assignment_description_1.pdf)
+  - [Τεχνική αναφορά της *1ης εργασίας*](https://github.com/akorkos/Assignments-in-Numerical-Analysis/raw/master/Assignment-1/Report_1.pdf)
+ 
+* [Εκφώνηση της *2ης εργασίας*](https://github.com/akorkos/Assignments-in-Numerical-Analysis/raw/master/Assignment-2/Assignment_description_2.pdf)
+  - [Τεχνική αναφορά της *2ης εργασίας*](https://github.com/akorkos/Assignments-in-Numerical-Analysis/raw/master/Assignment-2/Report_2.pdf)
+  
 ### Περιεχόμενα 
 
 <table style="width:100%">
@@ -46,6 +52,12 @@
 
 ### Information 
 This repository includes the two assignments for the course [Numerical analysis](https://elearning.auth.gr/enrol/index.php?id=7942) (Winter 2021-22) at the computer science department @[AUTh](https://www.auth.gr/en/).
+
+* [Description for *first assignment*](https://github.com/akorkos/Assignments-in-Numerical-Analysis/raw/master/Assignment-1/Assignment_description_1.pdf)
+  - [Τechnical report for *first assignment*](https://github.com/akorkos/Assignments-in-Numerical-Analysis/raw/master/Assignment-1/Report_1.pdf)
+ 
+* [Description for *second assignment*](https://github.com/akorkos/Assignments-in-Numerical-Analysis/raw/master/Assignment-2/Assignment_description_2.pdf)
+  - [Τechnical report for *second assignment*](https://github.com/akorkos/Assignments-in-Numerical-Analysis/raw/master/Assignment-2/Report_2.pdf)
 
 ### Content 
 
