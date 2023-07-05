@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+import tikzplotlib as tk
 
 def splines(xi, yi):
     n = xi.shape[0]
@@ -83,4 +83,5 @@ if __name__ == "__main__":
     plt.xlabel("$x$")
     plt.plot(x1, errors, color="r")
     plt.ticklabel_format(style='plain')
-    plt.show()
+    # plt.show()
+    tk.save("tττ.tex")

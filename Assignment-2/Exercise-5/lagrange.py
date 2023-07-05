@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+import tikzplotlib as tk
 
 def lagrangeCoefficients(xi, x, n):
     L = np.ones(n)
@@ -59,4 +59,5 @@ if __name__ == "__main__":
     plt.xlabel("$x$")
     plt.plot(x1, errors, color = "green")
     plt.ticklabel_format(style='plain')
-    plt.show()
+    # plt.show()
+    tk.save("t.tex")

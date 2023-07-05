@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+import tikzplotlib as tk
 
 def leastSquares(xi, yi, degree = 9):
     n = xi.shape[0]
@@ -66,4 +66,5 @@ if __name__ == "__main__":
     plt.xlabel("$x$")
     plt.plot(x, errors, color="blue")
     plt.ticklabel_format(style='plain')
-    plt.show()
+    # plt.show()
+    tk.save("tτ.tex")

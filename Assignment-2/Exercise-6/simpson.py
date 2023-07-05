@@ -16,12 +16,14 @@ def simpson(f, a, b, n):
     firstSum = 0
     for i in range(1, n // 2 + 1):
         xi = a + (2 * i - 1) * h
+
         firstSum += f(xi)
 
     secondSum = 0
     for i in range(1, n // 2):
         xi = a + 2 * i * h
         secondSum += f(xi)
+        print(xi)
 
     I += 4 * firstSum + 2 * secondSum
     I *= h / 3

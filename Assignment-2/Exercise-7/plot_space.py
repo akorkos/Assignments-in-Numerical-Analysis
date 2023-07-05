@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+import tikzplotlib as tk
 
 def leastSquares(xi, yi, degree = 9):
     n = xi.shape[0]
@@ -37,7 +37,7 @@ if __name__ == "__main__":
     predictions4 = np.array([calcaluteValue(coefficients4, i, 4) for i in daysToBePredicted])
     actual = [5.60, 5.50, 5.54, 5.64, 5.64]
 
-    plt.title("ΣΠΕΙΣ")
+    # plt.title("ΣΠΕΙΣ")
     plt.ylabel("Τιμή")
     plt.xlabel("Α/Α συνεδρίασης")
     plt.plot(daysToBePredicted, actual, label="Πραγματική τιμή μετοχής", color="r", linestyle="dashed")
@@ -46,4 +46,5 @@ if __name__ == "__main__":
     plt.scatter(daysToBePredicted, predictions3, label="Πολυώνυμο 3ου βαθμού")
     plt.scatter(daysToBePredicted, predictions4, label="Πολυώνυμο 4ου βαθμού")
     plt.legend()
-    plt.show()
+    # plt.show()
+    tk.save("test1.tex")

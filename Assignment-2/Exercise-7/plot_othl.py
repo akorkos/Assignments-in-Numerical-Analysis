@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+import tikzplotlib as tk
 
 def leastSquares(xi, yi, degree = 9):
     n = xi.shape[0]
@@ -46,5 +46,6 @@ if __name__ == "__main__":
     plt.scatter(daysToBePredicted, predictions3, label = "Πολυώνυμο 3ου βαθμού")
     plt.scatter(daysToBePredicted, predictions4, label = "Πολυώνυμο 4ου βαθμού")
     plt.legend()
-    plt.show()
+    # plt.show()
+    tk.save("test.tex")
 
